@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { Animated, TouchableWithoutFeedback, StyleSheet, Text, View } from 'react-native';
+import { Animated, TouchableWithoutFeedback, StyleSheet, Text } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { LinearGradient } from 'expo-linear-gradient';
 

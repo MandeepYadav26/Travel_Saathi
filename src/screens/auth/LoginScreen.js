@@ -100,7 +100,7 @@ export default function LoginScreen({ navigation }) {
           }}
           activeOpacity={0.7}
         >
-          <Text style={[styles.link, { color: colors.secondary }]}>Don't have an account? Sign up</Text>
+          <Text style={[styles.link, { color: colors.secondary }]}>{"Don't have an account? Sign up"}</Text>
         </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>

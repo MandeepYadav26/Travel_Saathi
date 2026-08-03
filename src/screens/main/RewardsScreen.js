@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image, Alert } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert } from 'react-native';
 import { ThemeContext } from '../../theme/ThemeContext';
 import { AuthContext } from '../../navigation/AppNavigator';
 import { Ionicons } from '@expo/vector-icons';
