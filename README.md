@@ -110,9 +110,9 @@ Travel_saathi/
 
 ---
 
-## 🤝 Contributing
+## 🤝 Contributing & Community
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the submission process.
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards, and [SECURITY.md](SECURITY.md) for security reporting.
 
 ---
 
