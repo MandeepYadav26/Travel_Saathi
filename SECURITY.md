@@ -4,10 +4,10 @@
 
 The following table lists the versions of **Travel Saathi** currently supported with security updates:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 1.0.x   | Yes       |
+| < 1.0   | No        |
 
 ---
 
@@ -24,4 +24,4 @@ We take the security of **Travel Saathi** seriously. If you believe you have fou
 - **Assessment**: We will evaluate the impact and scope of the reported issue.
 - **Fix & Disclosure**: Once resolved, a security patch release will be published along with appropriate credit to the reporter.
 
-Thank you for helping keep Travel Saathi secure for everyone! 🛡️
+Thank you for helping keep Travel Saathi secure for everyone!

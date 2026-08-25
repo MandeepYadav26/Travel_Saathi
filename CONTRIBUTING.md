@@ -4,7 +4,7 @@ Thank you for your interest in contributing to **Travel Saathi**! We welcome con
 
 ---
 
-## 🛠️ How to Contribute
+## How to Contribute
 
 ### 1. Fork & Clone
 1. Fork the repository on GitHub.
@@ -52,4 +52,4 @@ git commit -m "feat: add filter options to itinerary planner"
 
 ---
 
-Thank you for helping make Travel Saathi better for everyone! ✈️
+Thank you for helping make Travel Saathi better for everyone!

@@ -1,4 +1,4 @@
-# Travel Saathi ✈️🧳
+# Travel Saathi
 
 [![Expo SDK](https://img.shields.io/badge/Expo-SDK%2055-blue?logo=expo&logoColor=white)](https://docs.expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.83-61DAFB?logo=react&logoColor=white)](https://reactnative.dev/)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Architecture & Data Flow
+## Architecture & Data Flow
 
 ```mermaid
 graph TD
@@ -39,7 +39,7 @@ graph TD
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 Travel_saathi/
@@ -60,7 +60,7 @@ Travel_saathi/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js**: v18.0.0 or higher
@@ -99,7 +99,7 @@ Travel_saathi/
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+## Tech Stack & Libraries
 
 - **Core Framework**: React Native 0.83, Expo SDK 55
 - **Navigation**: `@react-navigation/native` & `@react-navigation/bottom-tabs`
@@ -110,12 +110,12 @@ Travel_saathi/
 
 ---
 
-## 🤝 Contributing & Community
+## Contributing & Community
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines, [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards, and [SECURITY.md](SECURITY.md) for security reporting.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
