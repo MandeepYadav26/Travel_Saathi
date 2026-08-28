@@ -20,6 +20,7 @@ We take the security of **Travel Saathi** seriously. If you believe you have fou
 3. Include detailed steps to reproduce the issue, along with any relevant proof-of-concept code or screenshots.
 
 ### Our Response Process
+
 - **Acknowledgement**: We aim to acknowledge receipt of security vulnerability reports within 48 hours.
 - **Assessment**: We will evaluate the impact and scope of the reported issue.
 - **Fix & Disclosure**: Once resolved, a security patch release will be published along with appropriate credit to the reporter.

@@ -1,5 +1,5 @@
 /**
- * Core Data Models & Type Definitions for Travel Saathi
+ Core Data Models & Type Definitions for Travel Saathi
  */
 
 export type BudgetLevel = 'budget' | 'moderate' | 'luxury';
