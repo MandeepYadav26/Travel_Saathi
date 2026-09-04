@@ -42,3 +42,16 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# editors
+.idea/
+*.swp
+*.swo
+.vscode/settings.json
+
+# logs
+*.log
