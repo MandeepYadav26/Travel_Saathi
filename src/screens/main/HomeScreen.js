@@ -114,7 +114,7 @@ export default function HomeScreen() {
         const fallbackPlace = {
           name: q,
           details: 'We are gathering specific pricing information. Stay tuned!',
-          aiSummary: '✨ Generating live AI summary... please wait.'
+          aiSummary: 'Generating live AI summary... please wait.'
         };
         setSelectedPlace(fallbackPlace);
 
@@ -130,9 +130,10 @@ export default function HomeScreen() {
               aiSummary: text
             });
           } catch(e) {
+            console.warn('Gemini API error:', e.message);
             setSelectedPlace({
               ...fallbackPlace,
-              aiSummary: `[AI Error]: Could not load summary. ${e.message}`
+              aiSummary: `Could not load AI summary right now. Try again later.`
             });
           }
         } else {
@@ -148,8 +149,8 @@ export default function HomeScreen() {
         scrollViewRef.current.scrollTo({ y: 0, animated: true });
       }
     } catch (error) {
-      console.error(error);
-      alert('Error in search: ' + error.message);
+      console.error('Search failed:', error);
+      alert('Something went wrong while searching. Please try again.');
     }
   };
 
