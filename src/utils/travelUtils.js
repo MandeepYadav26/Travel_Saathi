@@ -2,6 +2,12 @@
   Utility functions for Travel Saathi application
  */
 
+const REWARD_CONFIG = {
+  POINTS_PER_DIARY: 50,
+  POINTS_PER_PHOTO: 15,
+  BASE_SIGNUP_BONUS: 100
+};
+
 /**
   Calculates reward points earned based on diary entries and uploaded photos.
   @param {number} diaryCount - Total number of diary entries created.
@@ -9,14 +15,10 @@
   @returns {number} Total reward points calculated.
  */
 function calculateRewardPoints(diaryCount = 0, photoCount = 0) {
-  const POINTS_PER_DIARY = 50;
-  const POINTS_PER_PHOTO = 15;
-  const BASE_SIGNUP_BONUS = 100;
+  const diaryPoints = Math.max(0, diaryCount) * REWARD_CONFIG.POINTS_PER_DIARY;
+  const photoPoints = Math.max(0, photoCount) * REWARD_CONFIG.POINTS_PER_PHOTO;
 
-  const diaryPoints = Math.max(0, diaryCount) * POINTS_PER_DIARY;
-  const photoPoints = Math.max(0, photoCount) * POINTS_PER_PHOTO;
-
-  return BASE_SIGNUP_BONUS + diaryPoints + photoPoints;
+  return REWARD_CONFIG.BASE_SIGNUP_BONUS + diaryPoints + photoPoints;
 }
 
 /**
