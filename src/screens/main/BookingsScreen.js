@@ -46,7 +46,7 @@ export default function BookingsScreen() {
         <Ionicons name="search" size={20} color={colors.textSecondary} style={{ marginRight: 10 }} />
         <TextInput
           style={[styles.input, { color: colors.text }]}
-          placeholder="Search by city (e.g. Mumbai)"
+          placeholder="Search city (like Mumbai, Delhi...)"
           placeholderTextColor={colors.textSecondary}
           value={hotelSearch}
           onChangeText={setHotelSearch}
