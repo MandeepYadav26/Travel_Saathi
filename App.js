@@ -5,7 +5,7 @@ import { ThemeProvider } from './src/theme/ThemeContext';
 import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
-  // Main app entry point
+  // Main entry point for Travel Saathi
   return (
     <SafeAreaProvider>
       <ThemeProvider>
