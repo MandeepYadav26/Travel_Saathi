@@ -20,7 +20,7 @@ export default function DiaryScreen() {
   const pickImage = async () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
     if (photos.length >= 10) {
-      Alert.alert('Limit Reached', 'You can only upload up to 10 photos per diary entry.');
+      Alert.alert('Too many photos', 'You can only upload up to 10 photos per entry.');
       return;
     }
 
