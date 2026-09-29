@@ -107,7 +107,7 @@ export default function SettingsScreen() {
       <View style={styles.settingsGroup}>
         <Text style={[styles.groupTitle, { color: colors.primary }]}>SUPPORT</Text>
         <View style={[styles.card, { backgroundColor: colors.surface }]}>
-          {renderSettingItem('help-circle', 'Help Center', '')}
+          {renderSettingItem('help-circle', 'Help & Support', '')}
           {renderSettingItem('information-circle', 'About Travel Saathi', 'v1.0.0')}
         </View>
       </View>
